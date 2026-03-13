@@ -1,0 +1,37 @@
+body{
+    font-family: Arial;
+    text-align: center;
+    background:#f4f4f4;
+}
+
+h1{
+    color:#333;
+}
+
+table{
+    margin:auto;
+}
+
+input{
+    width:50px;
+    padding:5px;
+    margin:2px;
+}
+
+button{
+    padding:10px 15px;
+    margin:10px;
+    background:#4CAF50;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#45a049;
+}
+
+#result{
+    font-size:20px;
+    margin-top:20px;
+}
