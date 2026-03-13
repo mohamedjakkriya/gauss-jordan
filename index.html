@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gauss Jordan Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Gauss-Jordan Calculator</h1>
+
+<label>Matrix Size:</label>
+<input type="number" id="size" value="3" min="2" max="6">
+<button onclick="createMatrix()">Create Matrix</button>
+
+<div id="matrixInput"></div>
+
+<button onclick="solve()">Solve</button>
+
+<h2>Result</h2>
+<div id="result"></div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
